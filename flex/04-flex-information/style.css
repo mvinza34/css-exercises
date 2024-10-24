@@ -1,8 +1,8 @@
-* {outline: 1px solid black;}
+/* *{outline: 1px solid black;} */
 
 body {
   font-family: 'Courier New', Courier, monospace;
-  text-align: center;
+  text-align: center; /* Item text is centered. */
 }
 
 img {
@@ -13,15 +13,17 @@ img {
 .title {
   font-size: 36px;
   font-weight: 900;
-  margin-bottom: 32px;
+  margin-bottom: 32px; /* 32px between the title and the 'items.' */
 }
 
 .container {
-  display: flex;
+  display: flex; /* Items are arranged horizontally on the page. */
+  justify-content: center; /* All items are centered on the page (horizontally, not vertically). */
+  gap: 52px; /* 52px between each item */
 }
 
 .info {
-  display:flex;
+  max-width: 200px; /* Items are only 200px wide and the text wraps. */
 }
 
 /* do not edit this footer */
