@@ -36,11 +36,14 @@ input {
   width: 400px;
 }
 
-.footer {
+.header, .footer {
   padding: 4px;
-  display:flex;
+  display: flex;
   flex-shrink: 0;
   justify-content: space-between;
+}
+
+.footer {
   background-color: #eeeeee;
   margin-top: auto;
 }
