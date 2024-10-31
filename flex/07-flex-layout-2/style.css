@@ -36,6 +36,7 @@ body {
   background: royalblue;
   box-sizing: border-box;
   flex-shrink: 0;
+  padding: 16px;
 }
 
 .card {
@@ -44,11 +45,19 @@ body {
   border-radius: 4px;
 }
 
+ul, a {
+  list-style-type: none;
+  text-decoration: none;
+  font-size: 24px;
+  color: white;
+}
+
 .body {
   display: flex;
+  flex: 1;
 }
 
 .card-container {
-  display: flex;
+  display: flex;  
   flex-wrap: wrap;
 }
